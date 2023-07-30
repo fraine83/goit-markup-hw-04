@@ -310,7 +310,7 @@ body {
     display: flex;   
 }
 .footer-text {
-    margin-left: 156px;
+    margin-left: 356px;
 }
 .footer-social-list {
     display: flex;
@@ -328,7 +328,7 @@ body {
 
 }
 .socmed-links {
-    margin-left: 200px;
+    margin-left: 156px;
 }
 .project-card {
     flex-basis: calc(100% / 3 - 30px);
