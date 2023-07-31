@@ -178,7 +178,6 @@ body {
 .filters .space + .space {
     margin-left: 8px;
 }
-
 .benefits { 
     display: flex;
     flex-wrap: wrap;
@@ -191,8 +190,6 @@ body {
     height: 110px;
     padding: 16px 80px;
 }
-
-
 .benefits .item {
     flex-basis: calc(100% / 4 -30px);
     margin-left: 30px;
@@ -212,7 +209,6 @@ body {
     line-height: 1.14;
     margin-bottom: 10px;
 }
-
 .section-title {
     text-align: center;
     color: var(--navyblue);
@@ -220,9 +216,7 @@ body {
     font-weight: 700;
     line-height: 1.5px;
     margin-bottom: 50px;
-
 }
-
 .what-we-do {
     display: flex;
     flex-wrap: wrap;
@@ -234,7 +228,6 @@ body {
     margin-left: 30px;
     margin-top: 30px;
 }
-
 .team {
     display: flex;
     flex-wrap: wrap;
@@ -256,7 +249,6 @@ body {
    line-height: 1.19;
    text-align: center;
 }
-
 .team .name {
     font-weight: 500;
     font-size: 20px;
@@ -264,14 +256,12 @@ body {
     padding-top: 30px;
     padding-bottom: 10px;
 }
-
 .team .position {
     font-weight: 400;
     font-size: 16px;
     color: var(--slatecolor);
     padding-bottom: 10px;
 }
-
 .bg-team {
     background-color: var(--cloud);
 }
@@ -297,9 +287,7 @@ body {
     margin: 0px;
 }
 .footer-heading {
-        color: var(--ashwhite);
-       
-        
+    color: var(--ashwhite);      
 }
 .footer {
     display: flex;
@@ -329,7 +317,6 @@ body {
     margin-left: 30px;
     margin-top: 30px;
 }
-
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -392,7 +379,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .partners {
     display: flex;
@@ -409,7 +395,12 @@ body {
     padding: 16px 32px;
     border-radius: 4px 4px 4px 4px;
 }
-
+.client-icon {
+    fill: var(--lightslate);
+}
+.antenna {
+    fill: var(--lightslate);
+}
     
 
 
