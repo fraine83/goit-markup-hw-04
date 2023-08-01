@@ -109,7 +109,7 @@ body {
     font-weight: 400;
 }
 .hero {
-    background-image: url(../images/Dark-bg.png), url(../images/people-office-1.jpg),
+    background-image: url(../images/Dark-bg.png), url(../images/people-office-1.png),
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
     background-size: cover;
     background-position: center, center;
@@ -265,14 +265,11 @@ body {
 .bg-team {
     background-color: var(--cloud);
 }
+.social-team
 .page-footer {
     padding: 60px 0;
     background-color: var(--navyblue);
 }
-.logo-link {
-    margin-bottom: 20px;
-}
-
 .studio-footer {
     color: var(--cloud);
 }
@@ -362,16 +359,8 @@ body {
     border: 1px solid #eeeeee;
     border-top: 0;
 }
-.social-team {
+.social-team .link{
     display: flex;
-    justify-content: center;
-    gap: 24px; 
-    }
-.icon-item {
-    width: 40px;
-    height: 40px;  
-    border-radius: 50px;
-    background-color: var(--iriscolor);
 }
 .social-footer .link {
     width: 100%;
@@ -399,7 +388,7 @@ body {
     fill: var(--lightslate);
 }
 .antenna {
-    fill: var(--lightslate);
+    
 }
     
 
