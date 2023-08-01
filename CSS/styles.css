@@ -79,7 +79,6 @@ body {
 .navigation {
     gap: 70px;
 }
-
 .nav-menu .page {
     color: var(--navyblue);
     font-size: 16px;
@@ -270,6 +269,10 @@ body {
     padding: 60px 0;
     background-color: var(--navyblue);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f00a7cbf35714b5745abdb991bbed0fbb7f3da12
 .studio-footer {
     color: var(--cloud);
 }
@@ -361,6 +364,26 @@ body {
 }
 .social-team .link{
     display: flex;
+<<<<<<< HEAD
+=======
+    justify-content: center;
+    gap: 24px; 
+    }
+social-team .link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: var(--iriscolor);
+    justify-content: center;
+    border-radius: 50px;
+    align-items: center;
+    
+.icon-item {
+    width: 40px;
+    height: 40px;  
+    border-radius: 50px;
+    background-color: var(--iriscolor);
+>>>>>>> f00a7cbf35714b5745abdb991bbed0fbb7f3da12
 }
 .social-footer .link {
     width: 100%;
