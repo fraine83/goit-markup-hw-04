@@ -290,11 +290,11 @@ body {
 }
 .footer {
     display: flex;
+    gap: 130px;
  
 }
-.footer-block {
-    margin-left: 120px;
-}
+.footer-block: {}    
+
 
 .social-footer {
     display: flex;
