@@ -283,8 +283,7 @@ body {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-            0px 2px 1px rgba(0, 0, 0, 0.12);
+    
 }
 .project .name {
     color: var(--navyblue);
@@ -301,7 +300,30 @@ body {
     font-size: 18px;
     line-height: 1.47;  
 }
-   
+.overlay-wrap {
+    position: relative;
+    overflow: hidden;
+    bottom: 0;
+}
+.text-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding: 40px 32px;
+    color: var(--cloud);
+    background-color: var(--oceancolor);
+    transform: translateY(100%);
+    transition: 250ms ease-in-out;
+}
+.project-card:hover .text-content {
+    transform: translateY(0);
+}   
 
 .project-card:hover,
 .project-card:focus {
@@ -462,19 +484,6 @@ body {
     padding: 60px 0;
     background-color: var(--navyblue);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
