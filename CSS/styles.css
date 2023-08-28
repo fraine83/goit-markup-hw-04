@@ -445,6 +445,11 @@ body {
     border-radius: 50px;
 }
 
+.footer {
+    display: flex;
+    gap: 130px;
+
+}
 .page-footer {
     padding: 60px 0;
     background-color: var(--navyblue)
@@ -454,14 +459,6 @@ body {
         color: var(--cloud);
     }
 
-.page-footer {
-    padding: 60px 0;
-    background-color: var()
-}
-
-.studio-footer {
-    color: var(--cloud);
-}
 
 .footer-description {
     color: var(--cloud);
@@ -475,16 +472,6 @@ body {
 .footer-heading {
     color: var(--ashwhite);      
 }
-.footer {
-    display: flex;
-    gap: 130px;
- 
-}
-.page-footer {
-    padding: 60px 0;
-    background-color: var(--navyblue);
-}
-
 
 
 
